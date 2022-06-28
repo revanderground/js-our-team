@@ -61,21 +61,28 @@ const team=[
    
 ]
 
+
 const teamWrapper = document.querySelector('.team-wrapper');
 
 for (let i=0; i<team.length; i++){
     console.log(team[i]);
 
-    let person= document.createElement('div');
-    person.innerHTML= `<div class="card -100">
-    <div class="card-body text-center">
-    <h5 class="card-title">${team[i].nome}</h5>
-      <p class="card-subtitle">${team[i].ruolo}</p>
-    </div>
-    <img src="${team[i].foto}"<class="card-img-top" alt="...">
-  </div>` ;
+    const newCard = createCard(team[i]);
 
-  teamWrapper.append(person);
-    
-    
+    function createCard(){
+        let person= document.createElement('div');
+        person.innerHTML= `<div class="card -100">
+        <div class="card-body text-center">
+        <h5 class="card-title">${team[i].nome}</h5>
+          <p class="card-subtitle">${team[i].ruolo}</p>
+        </div>
+        <img src="${team[i].foto}"<class="card-img-top" alt="...">
+      </div>` ;
+        
+    teamWrapper.append(person);
+    }
+
+
+
+
 }
