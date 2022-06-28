@@ -34,6 +34,30 @@ const team=[
         ruolo: "Graphic Designer",
         foto: "img/barbara-ramos-graphic-designer.jpg "
     },
+
+    {
+        nome: "Georgina Franklin",
+        ruolo: "Network Engineer",
+        foto: "img/new-team-member-01.jpg"
+    },
+
+    {
+        nome: "Barry Snowden",
+        ruolo: "Cybersecurity Manager",
+        foto: "img/new-team-member-02.jpg"
+    },
+
+    {
+        nome: "Michelle Lee",
+        ruolo: "Ethical Hacker",
+        foto: "img/new-team-member-03.jpg"
+    },
+
+    {
+        nome: "Stanley Queen",
+        ruolo: "Malware Analyst",
+        foto: "img/new-team-member-04.jpg"
+    },
    
 ]
 
