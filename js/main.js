@@ -78,8 +78,8 @@ for (let i=0; i<team.length; i++){
         </div>
         <img src="${team[i].foto}"<class="card-img-top" alt="...">
       </div>` ;
-        
-    teamWrapper.append(person);
+      teamWrapper.append(person);
+   
     }
 
 
